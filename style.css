@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: San Francisco, Arial, Helvetica Neue, Helvetica, sans-serif;
+  display: flex;
+  margin: 0 auto;
+  /* justify-content: space-around; */
+}
+
+.container {
+  width: 33.33%;
+}
+
+.login {
+  background: rgba(244, 236, 255, 1);
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.box {
+  position: relative;
+  margin: 200px auto 200px;
+  text-align: center;
+}
+
+ul {
+  width: 300px;
+  height: auto;
+  position: relative;
+  margin: 0 auto;
+}
+
+input {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  /* border-bottom: 1px solid #33354e; */
+  /* width: 200px; */
+  padding: 1.1em;
+  color: #fff;
+  outline: none;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+input[type='submit'] {
+  background: rgba(102, 36, 210, 1);
+  cursor: pointer;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  text-align: center;
+  width: 198px;
+  /* margin: 3em auto 0 auto; */
+}
+
+label {
+  font-weight: bold;
+  font-size: 15px;
+  color: rgba(102, 36, 210, 1);
+}
+
+input[type='checkbox'] {
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.remember {
+  margin-top: 150px;
+}
+
+.socialmedia {
+  margin-top: 150px;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgba(102, 36, 210, 1);
+  font-style: italic;
+}
+
+.socialicon_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.socialicon {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background: rgba(102, 36, 210, 1);
+  margin: 5px;
+  margin-top: 1px;
+}
+
+.congratulation,
+.logo {
+  background-color: rgba(102, 36, 210, 1);
+  text-align: center;
+}
+
+/* .login {
+  text-align: center;
+} */
+
+h1,
+h3 {
+  color: white;
+}
+
+h1 {
+  margin-top: 200px;
+}
+
+button {
+  margin-top: 200px;
+  height: 40px;
+  width: 160px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 20px;
+  background: #fff;
+  color: rgba(102, 36, 210, 1);
+}
+
+.logoimg_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logoimg {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  background: rgba(244, 236, 255, 1);
+  margin: 5px;
+  margin-top: 10px;
+}
